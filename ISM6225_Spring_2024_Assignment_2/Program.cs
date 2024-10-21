@@ -72,7 +72,7 @@ namespace Assignment_2
                 int n = nums.Length;
                 HashSet<int> numSet = new HashSet<int>();
 
-                // Add all numbers in the array to the HashSet
+                // Add  numbers in the array to the HashSet
                 foreach (int num in nums)
                 {
                     if (num > 0 && num <= n)
